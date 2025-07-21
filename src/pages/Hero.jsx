@@ -51,7 +51,7 @@ export default function Hero() {
                 className="
                     min-h-screen flex flex-col items-center justify-center 
                     px-4 py-16 sm:py-20 text-center relative overflow-hidden 
-                    bg-[linear-gradient(180deg,_rgba(0,0,0,0.5)_80%,_#261D20_95.62%),url('images/GambarAwal.svg')] 
+                    bg-[linear-gradient(180deg,_rgba(0,0,0,0.5)_80%,_#261D20_95.62%),url('/images/gambar-awal.svg')] 
                     bg-no-repeat bg-center bg-cover
                 "
             >
