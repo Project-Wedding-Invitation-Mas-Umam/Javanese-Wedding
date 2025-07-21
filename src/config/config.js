@@ -1,9 +1,9 @@
 // Nanti convert ke Bahasa Indonesia
 const config = {
   data: {
-    title: "The Wedding of Rahma & Andri", // Nanti ini otomatis
+    title: "The Wedding of Rahma & Andri", 
     description:
-      "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.", // Nanti ini dibikin random
+      "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.", 
     groomName: "Andri",
     brideName: "Rahma",
     parentGroom: "Bapak Budi & Ibu Siti",
@@ -37,8 +37,8 @@ const config = {
       }
     ],
     audio: {
-      src: "/audio/fulfilling-humming.mp3", // or /audio/nature-sound.mp3
-      title: "Fulfilling Humming", // or Nature Sound
+      src: "/audio/fulfilling-humming.mp3",
+      title: "Fulfilling Humming",
       autoplay: true,
       loop: true
     },
