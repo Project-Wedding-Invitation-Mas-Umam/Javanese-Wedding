@@ -28,7 +28,6 @@ export default function Wishes() {
         { value: 'NOT_ATTENDING', label: 'Tidak, saya tidak bisa hadir' },
         { value: 'MAYBE', label: 'Mungkin, saya akan konfirmasi nanti' }
     ];
-    // Example wishes - replace with your actual data
     const [wishes, setWishes] = useState([
         {
             id: 1,
@@ -58,7 +57,6 @@ export default function Wishes() {
         if (!newWish.trim()) return;
 
         setIsSubmitting(true);
-        // Simulating API call
         await new Promise(resolve => setTimeout(resolve, 1000));
 
         const newWishObj = {
